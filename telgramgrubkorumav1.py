@@ -6,7 +6,7 @@ import json
 import os
 
 logging.basicConfig(level=logging.INFO)
-Sihal = "TOKEN"  # BURAYA TOKENİNİ YAZ
+Sihal = "8408810189:AAF9ORfuHXgdCPydUFKAE0hSlxfTWwGP4pY"  # BURAYA TOKENİNİ YAZ
 bot = telebot.TeleBot(Sihal, parse_mode="HTML")
 
 APPROVED_FILE = "approved_users.json"
